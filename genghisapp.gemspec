@@ -16,6 +16,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'sinatra-mustache', '>= 0.0.4', '< 0.4.0'
   gem.add_dependency 'mongo',            '>= 1.8.0', '<= 1.10.1'
   gem.add_dependency 'json',             '>= 1.7.0', '< 2.2.1'
+  gem.add_dependency 'bson',             '>= 2.2.1'
 
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'active_support'
