@@ -10,14 +10,13 @@ Gem::Specification.new do |gem|
   gem.required_rubygems_version = Gem::Requirement.new('>= 1.3.6') if gem.respond_to? :required_rubygems_version=
   gem.rubyforge_project         = 'genghisapp'
 
-  gem.add_dependency 'vegas',            '~> 0.1.8'
-  gem.add_dependency 'sinatra',          '>= 1.3.3', '< 1.5.0'
-  gem.add_dependency 'sinatra-contrib',  '>= 1.3.1', '< 1.5.0'
-  gem.add_dependency 'sinatra-mustache', '>= 0.0.4', '< 0.4.0'
-  gem.add_dependency 'mongo',            '>= 1.8.0', '<= 1.10.1'
-  gem.add_dependency 'json',             '>= 1.7.0', '< 2.2.1'
-  gem.add_dependency 'bson',             '>= 2.2.1'
-
+  gem.add_dependency 'vegas'#,            '~> 0.1.8'
+  gem.add_dependency 'sinatra'#,          '>= 1.3.3', '< 1.5.0'
+  gem.add_dependency 'sinatra-contrib'#,  '>= 1.3.1', '< 1.5.0'
+  gem.add_dependency 'sinatra-mustache'#, '>= 0.0.4', '< 0.4.0'
+  gem.add_dependency 'mongo'#,            '>= 1.8.0', '<= 1.10.1'
+  gem.add_dependency 'json'#,             '>= 1.7.0', '< 2.2.1'
+  
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'active_support'
   gem.add_development_dependency 'therubyracer'
